@@ -1,3 +1,5 @@
+package com.umesh.patterns;
+
 public class Pattern {
 
     public void pattern1(int n) {
@@ -83,39 +85,18 @@ public class Pattern {
             System.out.println();
         }
     }
-    
-    public void pattern9(int n){
-        for(int i = 1; i<=n; i++){
-            for(int j = 1; j<=i; j++){
-                if(j%2 == 0){
+
+    public void pattern9(int n) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                if (j % 2 == 0) {
                     System.out.print("0");
                 }
-                if(j%2 != 0){
+                if (j % 2 != 0) {
                     System.out.print("1");
                 }
             }
             System.out.println();
         }
-    }
-    public static void main(String[] args) {
-        Pattern p = new Pattern();
-        System.out.println("Pattern 1 :");
-        p.pattern1(5);
-        System.out.println("Pattern 2 :");
-        p.pattern2(10);
-        System.out.println("Pattern 3 :");
-        p.pattern3(5);
-        System.out.println("Pattern 4 :");
-        p.pattern4(5);
-        System.out.println("Pattern 5 :");
-        p.pattern5(10);
-        System.out.println("Pattern 6 :");
-        p.pattern6(10);
-        System.out.println("Pattern 7 :");
-        p.pattern7(5);
-        System.out.println("Pattern 8 :");
-        p.pattern8(5);
-        System.out.println("Pattern 9 :");
-        p.pattern9(5);
     }
 }
