@@ -49,8 +49,8 @@ public class NumberRunner {
                                 + PerfectNumber.isPerfect(num2));
 
                 // Prime Number
-                System.out.println("Is Prime (17): "
-                                + PrimeNumber.isPrime(17));
+                System.out.println("Is Prime (2): "
+                                + PrimeNumber.isPrime(2));
 
                 // Count Primes Till N
                 System.out.println("Count Primes till 50: "
