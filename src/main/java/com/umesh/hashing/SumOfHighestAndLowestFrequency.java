@@ -18,10 +18,11 @@ public class SumOfHighestAndLowestFrequency {
             for (int j = 0; j < arr.length; j++) {
                 if (arr[j] == arr[i]) {
                     freq++;
-                    minFreq = Math.min(minFreq, freq);
-                    maxFreq = Math.max(maxFreq, freq);
+                    visited[j] = true;
                 }
             }
+            minFreq = Math.min(minFreq, freq);
+            maxFreq = Math.max(maxFreq, freq);
         }
 
         return minFreq + maxFreq;
