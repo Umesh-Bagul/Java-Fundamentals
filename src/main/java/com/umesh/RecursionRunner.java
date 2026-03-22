@@ -24,5 +24,7 @@ public class RecursionRunner {
 
         int[] d = { 100, 200, 300, 400, 500 };
         System.out.println("The Reversed Array is : " + ReverseAnArray.reverseArray(d));
+
+        System.out.println("The Sum of Digits is : " + SumOfDigits.addDigits(123));
     }
 }
