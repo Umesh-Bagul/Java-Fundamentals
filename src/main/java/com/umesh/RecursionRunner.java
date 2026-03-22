@@ -17,5 +17,12 @@ public class RecursionRunner {
 
         int[] b = { 12, 14, 16, 18 };
         System.out.println("The Sum of Array using head recursion is : " + SumOfArray.suma(b, 0));
+
+        System.out.println("The String is Plaindrome or Not : " + StringPalindrome.isPalindrome("Hello"));
+
+        System.out.println("The Number is Prime or Not : " + PrimeNumber.isPrime(13));
+
+        int[] d = { 100, 200, 300, 400, 500 };
+        System.out.println("The Reversed Array is : " + ReverseAnArray.reverseArray(d));
     }
 }
