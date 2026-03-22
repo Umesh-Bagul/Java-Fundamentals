@@ -26,5 +26,7 @@ public class RecursionRunner {
         System.out.println("The Reversed Array is : " + ReverseAnArray.reverseArray(d));
 
         System.out.println("The Sum of Digits is : " + SumOfDigits.addDigits(123));
+
+        System.out.println("The Fibonacci Number is : " + Fibonacci.fib(40));
     }
 }
