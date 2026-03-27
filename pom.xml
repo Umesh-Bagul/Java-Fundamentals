@@ -6,8 +6,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <!-- Your package/company name -->
     <groupId>com.umesh</groupId>
+
+    <!-- 🔥 Changed project name -->
     <artifactId>java-fundamentals</artifactId>
+
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -17,7 +21,7 @@
     </properties>
 
     <dependencies>
-        <!-- JUnit 5 -->
+        <!-- JUnit 5 (optional for DSA, but good to keep) -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -40,7 +44,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Surefire Plugin (for JUnit 5 tests) -->
+            <!-- Surefire Plugin (for running tests) -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
